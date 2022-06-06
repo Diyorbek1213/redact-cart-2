@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+	<title>Верстка описания для карточки товара</title>
+</head>
+
+
+<body style="font-family: 'Open Sans';">
+
+	<style>
+		@charset "UTF-8";
+
+		* {
+			padding: 0;
+			margin: 0;
+			border: 0;
+		}
+
+		*,
+		*:before,
+		*:after {
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		:focus,
+		:active {
+			outline: none;
+		}
+
+		a:focus,
+		a:active {
+			outline: none;
+		}
+
+		nav,
+		footer,
+		header,
+		aside {
+			display: block;
+		}
+
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			font-size: 100%;
+			line-height: 1;
+			font-size: 14px;
+			-ms-text-size-adjust: 100%;
+			-moz-text-size-adjust: 100%;
+			-webkit-text-size-adjust: 100%;
+		}
+
+		input,
+		button,
+		textarea {
+			font-family: inherit;
+		}
+
+		input::-ms-clear {
+			display: none;
+		}
+
+		button {
+			cursor: pointer;
+		}
+
+		button::-moz-focus-inner {
+			padding: 0;
+			border: 0;
+		}
+
+		a,
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		ul li {
+			list-style: none;
+		}
+
+		img {
+			vertical-align: top;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-size: inherit;
+			font-weight: 400;
+		}
+
+		/*--------------------*/
+
+		/*Обнуление*/
+		._container {
+			max-width: 1115px;
+			margin: 0px auto;
+			box-sizing: content-box;
+			padding: 0px 15px;
+		}
+
+		.speaker {}
+
+		.speaker__img {
+			text-align: center;
+		}
+
+		.speaker__img img {
+			max-width: 100%;
+		}
+
+		.speaker__title {
+			font-weight: 700;
+			font-size: 74px;
+			line-height: 134%;
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.speaker__subtitle {
+			font-weight: 600;
+			font-size: 35px;
+			line-height: 131%;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.speaker__subtitle_2 {
+			font-weight: 600;
+			font-size: 35px;
+			line-height: 131%;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 140px;
+		}
+
+		.speaker__img_1 {
+			max-width: 1018px;
+			max-height: 678px;
+			margin-top: 60px;
+		}
+
+		.speaker__img_2 {
+			max-height: 889px;
+			margin-bottom: 80px;
+		}
+
+		.speaker__img_3 {
+			margin-top: 140px;
+			margin-bottom: 80px;
+			max-height: 822px;
+		}
+
+		.speaker__subtitle__last {
+			padding-bottom: 160px;
+		}
+
+		@media(max-width: 960px) {
+			.speaker__title {
+				font-size: 55px;
+			}
+
+			.speaker__subtitle {
+				font-size: 25px;
+			}
+
+			.speaker__subtitle_2 {
+				font-size: 25px;
+				margin-bottom: 70px;
+			}
+
+			.speaker__img_1 {
+				margin-top: 40px;
+			}
+
+			.speaker__img_2 {
+				margin-bottom: 50px;
+			}
+
+			.speaker__img_3 {
+				margin-bottom: 40px;
+			}
+
+			.speaker__subtitle__last {
+				padding-bottom: 80px;
+			}
+		}
+
+		@media(max-width: 960px) {
+			.speaker__title {
+				font-size: 35px;
+			}
+
+			.speaker__subtitle {
+				font-size: 18px;
+			}
+
+			.speaker__subtitle_2 {
+				font-size: 18px;
+			}
+		}
+	</style>
+
+	<div class="speaker">
+		<div class="speaker__img speaker__img_1 _container">
+			<img src="https://smart-av.ru/image/catalog/products/speakerphones/Maxhub_BM21/cart1.png" alt="">
+		</div>
+		<div class="speaker__title _container">
+			Отличное качество звука
+		</div>
+		<div class="speaker__subtitle _container">
+			Благодаря всенаправленной системе из шести PZM-микрофонов, этот небольшой гаджет способен уловить звук с
+			расстояния до пяти метров и без малейших искажений передать его собеседникам, а всякие паразитные призвуки
+			отсекает система активного эхо- и шумоподавления.
+		</div>
+		<div class="speaker__subtitle_2 _container">
+			Спикер динамика охватывает всю полосу частот, натурально, громко и чисто передаёт голос собеседника, а
+			микрофонный массив уверенно улавливает любой голос с 5 метров с направления 360 градусов, подавляя в DSP
+			внеосевые звуки и шумы, попутно устраняя эхо.
+		</div>
+		<div class="speaker__img speaker__img_2">
+			<img src="https://smart-av.ru/image/catalog/products/speakerphones/Maxhub_BM21/cart2.png" alt="">
+		</div>
+		<div class="speaker__title _container">
+			Высокая автономность
+		</div>
+		<div class="speaker__subtitle _container">
+			может питаться как от сети, от любого 5В 2А адаптера, так и автономно, предлагая до 8 часов непрерывной работы
+			от встроенных аккумуляторов. Одна из фич модели BM21 - возможность беспроводной зарядки, которая не входит в
+			комплект.
+		</div>
+		<div class="speaker__img speaker__img_3">
+			<img src="https://smart-av.ru/image/catalog/products/speakerphones/Maxhub_BM21/cart3.png" alt="">
+		</div>
+		<div class="speaker__title _container">
+			Легкое подключение
+		</div>
+		<div class="speaker__subtitle speaker__subtitle__last _container">
+			С помощью Bluetooth подключите его к смартфону, ноутбуку, ПК или к интерактивной панели и все — вы в эфире!
+			Помимо этого поддерживается подключение через USB кабелем с разъемом Type-C. И, что немаловажно, спикерфон
+			поддерживает одновременное подключение до трех устройств.
+			Он рекордсмен в своем классе.
+		</div>
+	</div>
+</body>
+
+</html>
